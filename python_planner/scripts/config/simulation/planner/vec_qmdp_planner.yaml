@@ -1,0 +1,5 @@
+vec_qmdp_planner:
+  _target_: python_planner.vec_qmdp_planner_module.VecQMDPPlanner
+  _convert_: 'all'
+  horizon_seconds: 8.0
+  sampling_time: 0.1
